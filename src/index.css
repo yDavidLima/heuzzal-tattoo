@@ -438,6 +438,7 @@ img{
 
 .testimonials .box {
   max-width: none;
+  margin-bottom: 118px;
 }
 
 .grid3{
@@ -449,6 +450,12 @@ img{
 footer{
   margin-bottom: 22px;
 }
+
+.testimonials i {
+  display: none;
+}
+
+
 
 }
 
