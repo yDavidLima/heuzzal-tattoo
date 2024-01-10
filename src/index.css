@@ -276,14 +276,16 @@ article .box:hover .overlay {
   opacity: 1;
 }
 .catButton {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   margin: 40px 0;
+
 }
 .catButton button {
   text-transform: capitalize;
   margin-right: 20px;
+
 }
 /*---------portfolio-------------*/
 
@@ -426,6 +428,7 @@ footer i {
     margin: 40px 0;
     display: flex;
     flex-direction: column;
+    display: none;
 }
 
 .hero h1 {
