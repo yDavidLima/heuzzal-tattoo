@@ -15,8 +15,8 @@ export const Contact = () => {
                   <input name="name" required type='text' placeholder='Name' data-aos='flip-left' />
                   <input name="number" required type='number' placeholder='numero' data-aos='flip-right' />
                 </div>
-                <input type='email' placeholder='Subject' data-aos='flip-up' />
-                <textarea name='textarea' id='' cols='30' rows='10' data-aos='flip-down'></textarea>
+                <input type='email' placeholder='email - exemplo123@gmail.com' data-aos='flip-up' />
+                <textarea placeholder="Digite sua mensagem... " name='textarea' id='' cols='30' rows='10' data-aos='flip-down'></textarea>
                 <button  type="submit" data-aos='zoom-in-up'>Enviar</button>
               </form>
             </div>
