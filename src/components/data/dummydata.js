@@ -1,4 +1,4 @@
-import { FormatColorFill,  Brush,  DrawTwoTone, Lightbulb, FormatPaint, Edit, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+import { FormatColorFill,  Brush,  DrawTwoTone, Lightbulb, FormatPaint, Edit, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram,} from "@mui/icons-material"
 
 export const navlink = [
   {
@@ -88,26 +88,26 @@ export const project = [
   {
     id: 1,
     icon: <CloudOutlined />,
-    num: "89",
-    title: "HAPPY CLIENTS",
+    num: "92",
+    title: "Clientes felizes",
   },
   {
     id: 2,
     icon: <FavoriteBorder />,
     num: "231",
-    title: "PROJECTS COMPLEATED",
+    title: "Projetos concluídos",
   },
   {
     id: 3,
     icon: <Public />,
     num: "108",
-    title: "FILES DOWNLOADED",
+    title: "Projetos Personalizados",
   },
   {
     id: 4,
     icon: <PersonOutlined />,
     num: "1446",
-    title: "LIENS OF CODE",
+    title: "Horas de Tinta",
   },
 ]
 export const portfolio = [
@@ -161,21 +161,21 @@ export const testimonials = [
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image: "./image/testimonials/team-1.png",
     name: "Lucas Berrocal",
-    post: "Front End Developer",
+    post: "Tatuagem Personalizada",
   },
   {
     id: 2,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image: "./image/testimonials/team-2.png",
-    name: "Alex Ander",
-    post: "Back End Developer",
+    name: "Joãozinho (exemplo)",
+    post: "Tatuagem Colorida (exemplo)",
   },
   {
     id: 3,
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitordapibus dictum.Fusce faucibus ligula scelerisque, eleifend turpis in",
     image: "./image/testimonials/team-3.png",
-    name: "GorkCoder",
-    post: "React Developer",
+    name: "Pedrinho (exemplo) ",
+    post: "Tatuagem desenhada (exemplo)",
   },
 ]
 export const blog = [
@@ -207,32 +207,32 @@ export const blog = [
 export const contact = [
   {
     icon: <AddLocationAltOutlined />,
-    text1: "2651 Main Street, Suit 124",
-    text2: "Seattle, WA, 98101",
+    text1: "São Paulo - Rua Tuiuti 2668",
+    text2: "Sala 1 -  *Aberta* Somente com Hora Marcada.",
   },
   {
     icon: <PhoneIphone />,
-    text1: "0123456789",
-    text2: "0345627891",
+    text1: "+55 11 97320-8208",
+    
   },
   {
     icon: <EmailOutlined />,
-    text1: "hello@thetheme.io",
-    text2: "inf0@brex-theme.io",
+    text1: "exemplo@exemplo.com",
+    text2: "exemplo2@exemplo2.com",
   },
 ]
 export const social = [
+
   {
-    icon: <Facebook /> 
+    icon: <a target="_black" href="https://www.facebook.com/profile.php?id=100070383930825"> <Facebook /> </a>
   },
   {
     icon: <Twitter />,
   },
   {
-    icon: <Instagram /> 
+    icon: <a target="_black" href="https://www.instagram.com/heuzzal_tattoo/"> <Instagram/> </a>
   }
   ,
-  {
-    icon: <YouTube />,
-  },
+  
+
 ]

@@ -184,6 +184,11 @@ section {
   width: 65%;
 }
 
+.download-desenhos{
+  background-color: transparent;
+  border: red solid;
+}
+
 /*---------about-------------*/
 .grid3 {
   display: grid;
@@ -444,7 +449,7 @@ img{
 .grid3{
   display: flex;
   flex-wrap: wrap;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 footer{
